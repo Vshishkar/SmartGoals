@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGoals.WebApi", "SmartGoals.WebApi\SmartGoals.WebApi\SmartGoals.WebApi.csproj", "{911AB4AE-F425-4436-AAC8-AAEC3C14AD0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartGoals.WebApi", "SmartGoals.WebApi", "{CB392CB0-F9AA-485A-A2EA-BB43070DB9E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartGoals.Application", "SmartGoals.Application", "{8E8AA68F-F159-487F-9181-CB6ECA582D85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartGoals.Domain", "SmartGoals.Domain", "{777F9B37-242B-43A2-A2E8-71030956FF6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmartGoals.Infrastructure", "SmartGoals.Infrastructure", "{26CDD8D5-B50C-4EB6-89C7-32F6FE4289C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGoals.Domain.Models", "SmartGoals.Domain\SmartGoals.Domain.Models\SmartGoals.Domain.Models.csproj", "{9F4B3524-8FCA-473D-814D-FBD45EA62564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGoals.Application", "SmartGoals.Application\SmartGoals.Application\SmartGoals.Application.csproj", "{8DCDA8FE-5A99-4B7B-A7D3-8B2BC830B35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGoals.DataAccess.Abstractions", "SmartGoals.Infrastructure\SmartGoals.DataAccess.Abstractions\SmartGoals.DataAccess.Abstractions.csproj", "{3881B3B6-A3A0-4988-BE2D-4B197A6FD000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{911AB4AE-F425-4436-AAC8-AAEC3C14AD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911AB4AE-F425-4436-AAC8-AAEC3C14AD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911AB4AE-F425-4436-AAC8-AAEC3C14AD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911AB4AE-F425-4436-AAC8-AAEC3C14AD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4B3524-8FCA-473D-814D-FBD45EA62564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4B3524-8FCA-473D-814D-FBD45EA62564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4B3524-8FCA-473D-814D-FBD45EA62564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4B3524-8FCA-473D-814D-FBD45EA62564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCDA8FE-5A99-4B7B-A7D3-8B2BC830B35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCDA8FE-5A99-4B7B-A7D3-8B2BC830B35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCDA8FE-5A99-4B7B-A7D3-8B2BC830B35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCDA8FE-5A99-4B7B-A7D3-8B2BC830B35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3881B3B6-A3A0-4988-BE2D-4B197A6FD000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3881B3B6-A3A0-4988-BE2D-4B197A6FD000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3881B3B6-A3A0-4988-BE2D-4B197A6FD000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3881B3B6-A3A0-4988-BE2D-4B197A6FD000}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{911AB4AE-F425-4436-AAC8-AAEC3C14AD0A} = {CB392CB0-F9AA-485A-A2EA-BB43070DB9E1}
+		{9F4B3524-8FCA-473D-814D-FBD45EA62564} = {777F9B37-242B-43A2-A2E8-71030956FF6E}
+		{8DCDA8FE-5A99-4B7B-A7D3-8B2BC830B35D} = {8E8AA68F-F159-487F-9181-CB6ECA582D85}
+		{3881B3B6-A3A0-4988-BE2D-4B197A6FD000} = {26CDD8D5-B50C-4EB6-89C7-32F6FE4289C0}
+	EndGlobalSection
+EndGlobal
